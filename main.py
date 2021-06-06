@@ -8,7 +8,7 @@ app.config['SECRET_KEY'] = 'Thisisasecret!'
 @app.route("/", methods=['GET', 'POST'])
 def home():
     # year = datetime.datetime.now().year
-    return render_template('index.hItml')
+    return render_template('index.html')
 
 
 if __name__ == '__main__':
