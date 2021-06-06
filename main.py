@@ -5,7 +5,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'Thisisasecret!'
 
 
-@app.route("/", methods=['GET', 'POST'])
+@app.route("/")
 def home():
     # year = datetime.datetime.now().year
     return render_template('index.html')
