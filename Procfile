@@ -1,0 +1,1 @@
+heroku ps:scale web=3:Standard-2X worker+1
